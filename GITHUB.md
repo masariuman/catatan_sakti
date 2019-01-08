@@ -1,4 +1,5 @@
 # Berikut catatan sakti untuk pemakaian github
+##master
 ```bash
 git config --global user.name "username"
 
@@ -17,11 +18,10 @@ git pull origin master  /  git pull origin master --allow-unrelated-histories
 
 //if empty
 git push origin master
+```
 
-//-------------------------------------------------------------------------------------
-
-branch
--------------
+BRANCH
+```bash
 git checkout -b [nama branch / versi]
 
 git push origin [nama branch / versi]
