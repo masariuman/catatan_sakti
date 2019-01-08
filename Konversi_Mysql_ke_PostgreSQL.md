@@ -1,4 +1,4 @@
-# CATATAN SAKTI UNTUK MENGKONVERT MYSQL KE POSTGRESQL UNTUK HEROKU
+# CATATAN SAKTI UNTUK MENGKONVERSI MYSQL KE POSTGRESQL UNTUK HEROKU
 
 Heroku adalah sebuah layanan dimana kita dapat menghosting aplikasi web kita. heroku tidak seperti layanan hosting lainnya, heroku menggunaka sistem push untuk mengupload file ke heroku.
 Untuk heroku versi gratis atau free hanya memberikan layanan menggunakan database postgresql.
