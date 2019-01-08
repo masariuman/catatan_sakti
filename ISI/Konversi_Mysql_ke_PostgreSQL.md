@@ -22,7 +22,7 @@ python db_converter.py skripsi.mysql skripsi.psql
 Sebelum kita gunakan ke heroku, maka kita harus melakukan hal hal tertentu sesuai dengan aturan dari heroku. disini saya akan memberikan dua cara.
 tapi sebelum itu kita import dulu database yang sudah kita konversi ke dalam database postgresql.
 bagi yang belum menginstall postgresql, silahkan buka catatan sakti [POSTGRESQL](
-https://github.com/masariuman/catatan_sakti/blob/master/postgresql_ubuntu_18.04(current).md) .
+https://github.com/masariuman/catatan_sakti/blob/master/ISI/postgresql_ubuntu_18.04(current).md) .
 
 ### MEMBUAT DATABASE
 Setelah melakukan installasi dan setting pada postgresql, maka kita lakukan import data yang sudah kita konversi tadi kedalam postgresql.
