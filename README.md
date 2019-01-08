@@ -6,4 +6,11 @@ Catatan sakti adalah catatan yang dibuat oleh MasariuMan untuk catatan dirinya s
 
 Berikut adalah link link yang diberikan untuk melihat catatan catatan super sakti mandraguna.
 
-[GITHUB](#)
+[PUSH PROJECT KE GITHUB](https://github.com/masariuman/catatan_sakti/blob/master/GITHUB.md)
+
+
+[INSTALASI POSTGRESQL](https://github.com/masariuman/catatan_sakti/blob/master/postgresql_ubuntu_18.04(current).md)
+
+
+[KONVERSI MYSQL KE POSTGRESQL](https://github.com/masariuman/catatan_sakti/blob/master/Konversi_Mysql_ke_PostgreSQL.md)
+
