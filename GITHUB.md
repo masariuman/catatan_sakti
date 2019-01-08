@@ -1,7 +1,5 @@
 # Berikut catatan sakti untuk pemakaian github
-
-Github
-
+```bash
 git config --global user.name "username"
 
 git config --global user.email "email"
@@ -41,5 +39,4 @@ git push [nama branch / versi] [nama branch / versi]
 git status
 
 git commit -m "comment"
-
-
+```
