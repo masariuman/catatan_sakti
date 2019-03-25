@@ -10,4 +10,5 @@ Berikut adalah link link yang diberikan untuk melihat catatan catatan super sakt
 
 [Menampilkan Data dari DATABASE](https://github.com/masariuman/catatan_sakti/blob/master/ISI/larareact_menampilkan_data.md)
 
+[Insert Data Baru](https://github.com/masariuman/catatan_sakti/blob/master/ISI/news_baru.md)
 
