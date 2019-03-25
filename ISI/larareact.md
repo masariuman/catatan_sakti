@@ -8,3 +8,6 @@ Berikut adalah link link yang diberikan untuk melihat catatan catatan super sakt
 
 [Instalasi REACTJS pada LARAVEL](https://github.com/masariuman/catatan_sakti/blob/master/ISI/install_larareact.md)
 
+[Menampilkan Data dari DATABASE](https://github.com/masariuman/catatan_sakti/blob/master/ISI/larareact_menampilkan_data.md)
+
+
