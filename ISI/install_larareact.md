@@ -128,3 +128,5 @@ masukkan css, script js dan div untuk dipakai react seperti berikut
     </html>
 dapat dilihat diatas saya menambahkan `<link rel="stylesheet" href="css/app.css">` , `<div id="example"></div>` dan `<script src="js/app.js"></script>`
 buka kembali php artisan serve untuk melihat perubahan, view yang ditampilkan berada pada resource > js > component > example. dan akan menghasilkan view yang berbeda dari laravel pada umumnya.
+
+![Laravel + REACTJS](react.PNG)
