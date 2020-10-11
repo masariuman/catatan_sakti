@@ -55,6 +55,41 @@ ReactDOM.render(
 
 ---
 
+# React Router Dom
+jalankan ```npm install react-router-dom```
+
+---
+
+import react router dengan menambahkan kode import diatas file sebagai berikut.
+```js
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+```
+
+---
+
+atur route nya seperti pada [dokumentasi](https://reactrouter.com/web/guides/quick-start)
+
+---
+
+masukkan kode berikut di route laravel agar route dialihkan ke react-route.
+```js
+Route::any('{all}', function () {
+        return view('hiyaa');
+    })
+    ->where(['all' => '.*']);
+```
+
+---
+
+### SELESAI !!!
+
+----
+
 # summernote
 1. npm install react-summernote
 2. pada baris 2 webpack masukkan "const webpack = require("webpack");"
