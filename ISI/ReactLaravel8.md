@@ -3,15 +3,23 @@ bikin project laravel
 ```
 composer create-project --prefer-dist laravel/laravel blog
 ```
+
 ---
+
 masuk ke folder project dan jalankan 
 ```npm install```
+
 ---
+
 install react pada laravel
 ```npm i react```
+
 ---
+
 install react-dom pada laravel
 ```npm i react-dom```
+
+---
 
 
 
