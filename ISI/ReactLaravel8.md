@@ -1,7 +1,17 @@
-1. bikin project laravel
-2. masuk ke folder project dan jalankan "npm install"
-3. npm i react
-4. npm i react-dom
+# First Installation
+bikin project laravel
+```
+composer create-project --prefer-dist laravel/laravel blog
+```
+---
+masuk ke folder project dan jalankan 
+```npm install```
+---
+install react pada laravel
+```npm i react```
+---
+install react-dom pada laravel
+```npm i react-dom```
 
 
 
