@@ -21,7 +21,39 @@ install react-dom pada laravel
 
 ---
 
+rename extensi file js react ke .jsx
 
+---
+
+jalankan ```npm run dev```
+
+---
+
+atur templade blade masukkan script app.js (defer) ```<script src="/js/app.js" defer></script>``` dan tambahkan div id root ```<div id="root"></div>```
+
+---
+
+pada app.jsx untuk template dasar masukkan kode berikut
+```js
+require('./bootstrap');
+
+import React, { Component } from 'react';
+import ReactDOM from "react-dom";
+
+ReactDOM.render(
+        <div>
+            <p>test</p>
+            <p>BERHASIL !!</p>
+        </div>,
+
+    document.getElementById("root")
+);
+```
+
+---
+## Instalasi Aplikasi ReactJS pada Laravel 8.* Selesai !!!
+
+---
 
 # summernote
 1. npm install react-summernote
