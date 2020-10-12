@@ -94,6 +94,22 @@ Route::any('{all}', function () {
 
 ----
 
+# Route Controller laravel 8
+
+---
+
+pada file RouteServiceProvider, hilangkan komen / uncomment code ```protected $namespace = 'App\\Http\\Controllers';```
+
+---
+
+# Model Not Found Laravel 8
+
+---
+
+kalau copy paste dari model dibawah laravel 8, jangan lupa untuk namespace di atasnya ditambahkan ```App\Model```
+
+---
+
 # Axios
 
 ---
