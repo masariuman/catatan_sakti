@@ -95,8 +95,18 @@ Route::any('{all}', function () {
 2. pada baris 2 webpack masukkan "const webpack = require("webpack");"
 3. mix nya diganti jadi
 ``` js
-mix.react("resources/js/app.js", "public/js")
-    .sass("resources/sass/app.scss", "public/css");
+mix.react('resources/js/app.jsx', 'public/js')
+    .postCss('resources/css/app.css', 'public/css', [
+        //
+    ])
+    .webpackConfig({
+        plugins: [
+            new webpack.ProvidePlugin({
+                $: "jquery",
+                jQuery: "jquery"
+            })
+        ]
+    });
 ```
     
     
