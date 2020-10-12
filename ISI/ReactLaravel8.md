@@ -6,6 +6,10 @@ composer create-project --prefer-dist laravel/laravel blog
 
 ---
 
+sebelum npm install, composer require dulu untuk auth, pakai inertia
+
+---
+
 masuk ke folder project dan jalankan 
 ```npm install```
 
@@ -92,7 +96,7 @@ Route::any('{all}', function () {
 
 # summernote
 1. npm install react-summernote
-2. pada baris 2 webpack masukkan "const webpack = require("webpack");"
+2. pada baris 2 webpack masukkan ```const webpack = require("webpack");```
 3. mix nya diganti jadi
 ``` js
 mix.react('resources/js/app.jsx', 'public/js')
