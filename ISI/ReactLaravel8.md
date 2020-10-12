@@ -132,7 +132,7 @@ import 'react-summernote/lang/summernote-ru-RU'; // you can import any other loc
 import 'bootstrap/js/modal';
 import 'bootstrap/js/dropdown';
 import 'bootstrap/js/tooltip';
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
         <div>
@@ -159,6 +159,13 @@ ReactDOM.render(
 );
 ```
 
+---
+
+copy boostrap.css di ```node_module/bootstrap/dist/css/bootstrap.css``` ke public/css terus letakkan ```<link href="/css/bootstrap.css" rel="stylesheet">``` di paling atas css
+
+---
+
+#### SELESAI !!!
 
 ---
 
