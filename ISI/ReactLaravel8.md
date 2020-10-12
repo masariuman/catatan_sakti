@@ -94,6 +94,15 @@ Route::any('{all}', function () {
 
 ----
 
+# Axios
+
+---
+
+install axios terlebih dahulu dengan kode
+```npm install axios```
+
+---
+
 # summernote
 1. npm install react-summernote
 2. pada baris 2 webpack masukkan ```const webpack = require("webpack");```
