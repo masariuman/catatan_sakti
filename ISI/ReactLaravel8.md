@@ -148,3 +148,61 @@ ReactDOM.render(
     document.getElementById("root")
 );
 ```
+
+
+---
+
+# EnjoyHint
+
+---
+
+letakkan folder enjoyhint di public
+
+---
+
+tambahkan kode berikut sebagai js dan css
+
+```js
+<link href="/enjoyhint/enjoyhint.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/kineticjs/5.2.0/kinetic.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+<script src="/enjoyhint/enjoyhint.min.js"></script>
+```
+
+---
+
+masukkan code jquery nya di component did mount seperti berikut
+
+```js
+    componentDidMount() {
+        $('#petunjuk').on('click',function() {
+            //initialize instance
+            var enjoyhint_instance = new EnjoyHint({});
+
+            //simple config.
+            //Only one step - highlighting(with description) "New" button
+            //hide EnjoyHint after a click on the button.
+            var enjoyhint_script_steps = [
+            {
+                'next #buttonTambahModal' : 'Click the "New" button to start creating your project'
+            }
+            ];
+
+            //set script config
+            enjoyhint_instance.set(enjoyhint_script_steps);
+
+            //run Enjoyhint script
+            enjoyhint_instance.run();
+        });
+    }
+```
+
+---
+
+jangan lupa install jquery di react, mirip dengan cara summernote
+
+---
+
+### selesai
