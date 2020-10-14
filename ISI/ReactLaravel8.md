@@ -252,3 +252,27 @@ jangan lupa install jquery di react, mirip dengan cara summernote
 ---
 
 ### selesai
+
+---
+
+# SweetAlert
+
+---
+
+```js
+npm install sweetalert --save
+```
+
+kemudian
+
+```js
+import swal from 'sweetalert';
+```
+
+kemudian
+
+```js
+swal("Error!", "Terdapat Masalah, Silahkan Hubungi Admin!", "error");
+```
+
+---
