@@ -6,8 +6,14 @@ composer create-project --prefer-dist laravel/laravel blog
 
 ---
 
-sebelum npm install, composer require dulu untuk auth, pakai inertia
+sebelum npm install, composer require dulu untuk auth, pakai inertia /liveware
+```composer require laravel/jetstream```
 
+```php artisan jetstream:install livewire```
+atau
+```php artisan jetstream:install inertia```
+
+```sudo xcode-select --reset```
 ---
 
 masuk ke folder project dan jalankan 
