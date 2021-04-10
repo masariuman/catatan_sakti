@@ -21,6 +21,10 @@ masuk ke folder project dan jalankan
 
 ---
 
+atur db di .env dan lakukan ```php artisan migrate```
+
+---
+
 install react pada laravel
 ```npm i react```
 
